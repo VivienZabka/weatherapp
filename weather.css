@@ -1,0 +1,46 @@
+h1 {
+  color: #99b3ff;
+  margin: 0 auto;
+}
+
+.container {
+  background-image: -moz-linear-gradient(#2980b9 10% #6dd5fa 50%);
+}
+body {
+  margin: 0 auto;
+  font-family: Arial, "Arial Narrow Bold", sans-serif;
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: #6dd5fa;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  background-image: -moz-linear-gradient(#2980b9 10% #6dd5fa 50%);
+}
+.card-img {
+  opacity: 0.9;
+}
+.card text-bg-dark {
+  display: block;
+  text-align: center;
+  background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 0.6)) !important;
+}
+
+.card-img-overlay {
+  text-align: center;
+}
+.col-sm-4 {
+  display: inline-block;
+}
+.card-body {
+  display: inline-block;
+}
+.text-muted {
+  --bs-text-opacity: 1;
+  color: blanchedalmond;
+}
+.form-control btn btn-primary shadow-sm w-100 {
+  display: inline-block;
+}
